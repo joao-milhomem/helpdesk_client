@@ -6,11 +6,11 @@ export const AuthLayout: React.FC = () => {
 	return (
 		<div className="grid min-h-screen grid-cols-2 place-content-center">
 			<div className="grid min-h-screen place-content-center bg-muted">
-				<div className="ont-semibold flex flex-col items-center gap-2">
-					<Logo />
+				<div className="ont-semibold mt-[-2rem] flex flex-col items-center gap-2">
+					<Logo className="w-60" />
 
-					<h1 className="space-x-0.5 font-bold text-4xl tracking-tight mt-4 mb-2">
-						<span className="text-muted-foreground">Need</span>
+					<h1 className="mt-4 mb-2 space-x-0.5 font-bold text-4xl text-muted-foreground tracking-tight">
+						Need
 						<span className="rounded-md bg-primary p-2 font-extrabold text-muted">
 							He!p
 						</span>
